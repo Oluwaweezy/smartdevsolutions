@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.smartdevsolutions.controllers;
 
 import org.springframework.stereotype.Controller;
@@ -12,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class HelloWorldController {
-	
-	@RequestMapping("/")
-	public String SayHello()
-	{
-		return "index";
-	}
+
+    @RequestMapping("/")
+    public String SayHello()
+    {
+        return "index";
+    }
 
 }
